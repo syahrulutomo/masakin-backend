@@ -16,6 +16,7 @@ import javax.persistence.TemporalType;
 import org.hibernate.annotations.GenericGenerator;
 
 @Entity
+@Table(name="users")
 public class User {
     
     @Id
